@@ -58,6 +58,28 @@ The first step is to create an API token from Spotify. You can do this by loggin
 </ol>
 </section>
 
+<section>
+<h2>Connect Node with Telegram</h2>
+<ol>
+<li> 
+<p> Add the UniversalTelegramBot library. You will see the option below; choose to install everything.</p>
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/44bae65a-443e-49e0-a227-d87e5af340e8">
+<img width="105" alt="image" src="https://github.com/user-attachments/assets/57d2d372-3840-44df-8b80-4da3dc228cc1">
+
+</li>
+<li>
+  Open the test file "EchoBot." Do this by clicking on File > Examples > UniversalTelegramBot (scroll all the way down) > esp8266 > EchoBot.
+</li>
+<li>
+Modify the code on lines 26 to 30 as follows:
+
+
+Enter the token you received when creating your bot on line 30.
+</li>
+</ol>
+  
+</section>
+
 
 
 
