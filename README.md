@@ -169,21 +169,22 @@ Enter the token you received when creating your bot on line 30.
   </li>
   <li>
     <p>The page should like like this:</p>
-      </li>
+    <img width="200" alt="Screenshot 2024-10-17 at 16 58 15" src="https://github.com/user-attachments/assets/d5cb7a00-9fa2-466e-a794-9c52d486139c">
+  </li>
   <li>
-    click the link and you
+    <p>Click on the link, and you will be redirected to Spotify. You need to accept this.</p>
+    <img width="393" alt="Screenshot 2024-10-17 at 17 01 59" src="https://github.com/user-attachments/assets/8db21d7d-2233-4de4-9722-9c0425614d31">
+  </li>
+  <li>
+    <p>Now you will receive a long token, which you will need later. This is your **refresh token**!</p>
   </li>
 
-  
-      opnieuw -> doet het wel -> ip in serial
-      pagina doet het alleen niet
-      Redirect URIs (Sukkel)
-      
-    <li>
-      Token in current nummer -> werkt!
+  <h3>Small test</h3>
+  <li>
+      <p>Open the example file "getCurrentlyPlaying". <br>
+      Now, enter your Wi-Fi details here, along with your tokens. You'll also need your **refresh token**, so make sure to enter that as well.<br> If everything works it should look like this:</p>
       <img width="400" alt="Screenshot 2024-10-17 at 21 02 37" src="https://github.com/user-attachments/assets/ce2a48bd-6c00-4f18-a94c-71d14d4956ed">
-
-    </li>
+  </li>
 </ol>
 
 
