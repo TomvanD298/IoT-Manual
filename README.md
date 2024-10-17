@@ -10,6 +10,7 @@
   </li>
   <li>
     <a href="https://github.com/TomvanD298/IoT-Manual/edit/main/README.md#telegram-token">Telegram Token</a>
+    <a href="https://github.com/TomvanD298/IoT-Manual?tab=readme-ov-file#telegram-token">  Test Token </a>
   </li>
 </ul>
 
