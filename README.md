@@ -71,6 +71,7 @@ The first step is to create an API token from Spotify. You can do this by loggin
   
 <li>
   Open the test file "EchoBot." Do this by clicking on File > Examples > UniversalTelegramBot (scroll all the way down) > esp8266 > EchoBot.
+  <b>Make sure you are using ESP8266 and not ESP32. This will not work. (Took me half an hour to realise this) </b>
 </li>
 
 <li>
@@ -89,13 +90,6 @@ Enter the token you received when creating your bot on line 30.
  <p>You can solve this by simply disconnecting the Node and reconnecting it.</p>
 </li>
 <li>
-  <p>Next i got the error.</p>
-  <img width="300" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/03170784-3f92-405b-a542-5263fed72786">
-  <p> This means that #include <WiFi.h> doesnt excist. You can replace it with:</p>
-  <code>#include <ESP8266WiFi.h></code>
-
-</li>
-<li>
   Then, you need to change the Baud rate from 9600 (default) to 115200. You can do this in the serial monitor on the right.
   <img width="452" alt="image" src="https://github.com/user-attachments/assets/cd802055-cd96-4500-a7f8-1f59f1aded94">
 </li>
@@ -111,6 +105,10 @@ Enter the token you received when creating your bot on line 30.
   <p>This will ensure that you receive a response to your text.</p>
 </li>
 </ol>
+</section>
+
+<section>
+<h2>Connect your node with spotify</h2>
   
 </section>
 
