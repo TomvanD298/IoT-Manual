@@ -156,7 +156,7 @@ Enter the token you received when creating your bot on line 30.
     <p>The first time I ran the program, I didn’t get anything in the serial monitor. It was simply a matter of disconnecting the Node and reconnecting it to the laptop.</p>
   </li>
   <li>
-    <p>Now, you will see an IP address in your serial monitor. You will need to use this shortly.</p>
+    <p>Now, you will see an IP address in your serial monitor.</p>
   </li>
   <li>
     <p></p>Add the following to Redirect URI on your Spotify app "http://[ESP_IP]/callback/"<br>
@@ -165,7 +165,13 @@ Enter the token you received when creating your bot on line 30.
     <p>(This is where we added the Github link in the beginning.)</p>
   </li>
   <li>
-    <p></p>
+    <p>Next, type `http://192.168.1.20` into your internet browser, replacing `[{IP}](http://192.168.1.20)` with the IP address you got from the serial monitor.</p>
+  </li>
+  <li>
+    <p>The page should like like this:</p>
+      </li>
+  <li>
+    click the link and you
   </li>
 
   
@@ -196,6 +202,9 @@ Enter the token you received when creating your bot on line 30.
   </li>
   <li>
     <img width="552" alt="Screenshot 2024-10-17 at 16 50 17" src="https://github.com/user-attachments/assets/cd741a71-6f35-452f-aa17-2c54c8eb677b">
+  </li>
+  <li>
+    <img width="301" alt="Screenshot 2024-10-17 at 16 58 21" src="https://github.com/user-attachments/assets/08563eae-c60d-4950-9b60-0ff881e2adad">
   </li>
 
 </ol>
