@@ -34,6 +34,7 @@ The first step is to create an API token from Spotify. You can do this by loggin
 <section>
 <h2>Telegram Token</h2>
 <p> For this step, you need Telegram. In Telegram, you can create a bot that you can then link to your Node. This allows you to send messages to your Node. </p>
+<img width="125" alt="image" src="https://github.com/user-attachments/assets/0f1f0bc5-e74f-47d6-964d-44a59fe136b9">
 
 <ol>
   <li>
@@ -72,9 +73,34 @@ The first step is to create an API token from Spotify. You can do this by loggin
 </li>
 
 <li>
-Modify the code on lines 26 to 30 as follows:
-<img width="400" alt="Screenshot 2024-10-17 at 13 13 48" src="https://github.com/user-attachments/assets/699a7fa8-d1c6-465b-81e1-bcc48d16f82d">
+Modify the code on lines 26 to 30 as follows:<br>
+<img width="589" alt="Screenshot 2024-10-17 at 13 24 54" src="https://github.com/user-attachments/assets/77599c86-21f7-4868-b088-467445e30d3f"><br>
 Enter the token you received when creating your bot on line 30.
+</li>
+
+<li>
+  Now, connect your NodeMCU to your computer.
+</li>
+
+<li>
+  <p>Upload the code to your Node to check if your Wi-Fi is working. Open your Serial Monitor to see if it’s functioning. I encountered the following issue:</p>
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/ef7843bf-7b3e-45f7-9629-017d04e1eea9">
+ <p>You can solve this by simply disconnecting the Node and reconnecting it.</p>
+</li>
+<li>
+  Then, you need to change the Baud rate from 9600 (default) to 115200. You can do this in the serial monitor on the right.
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/cd802055-cd96-4500-a7f8-1f59f1aded94">
+</li>
+<li>
+ <p> Then, write in the code on line 43:</p>
+  <code>Serial.println(bot.messages[i].text);</code><br>
+  <p>This will print the text you send via Telegram in your Serial Monitor.</p>
+</li>
+
+<li>
+  <p>Then, you can add the following line below it:</p>
+  <code>bot.sendMessage(bot.messages[i].chat_id, "Hi, How ya doin?", "");</code><br>
+  <p>This will ensure that you receive a response to your text.</p>
 </li>
 </ol>
   
