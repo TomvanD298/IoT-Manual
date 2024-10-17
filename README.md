@@ -87,7 +87,7 @@ Enter the token you received when creating your bot on line 30.
 <li>
   <p>Upload the code to your Node to check if your Wi-Fi is working. Open your Serial Monitor to see if it’s functioning. I encountered the following issue:</p>
   <img width="452" alt="image" src="https://github.com/user-attachments/assets/ef7843bf-7b3e-45f7-9629-017d04e1eea9">
- <p>You can solve this by simply disconnecting the Node and reconnecting it.</p>
+ <p>You can solve this by simply disconnecting the Node and reconnect it.</p>
 </li>
 <li>
   Then, you need to change the Baud rate from 9600 (default) to 115200. You can do this in the serial monitor on the right.
