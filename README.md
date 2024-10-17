@@ -6,11 +6,10 @@
 <h2>Table of content</h2>  
 <ul>
   <li>
-    <a href="https://github.com/TomvanD298/IoT-Manual/edit/main/README.md#spotify-api">Spotify API </a>
+    <a href="https://github.com/TomvanD298/IoT-Manual#spotify-api">Spotify API </a>
   </li>
   <li>
-    <a href="https://github.com/TomvanD298/IoT-Manual/edit/main/README.md#telegram-token">Telegram Token</a>
-    <a href="https://github.com/TomvanD298/IoT-Manual?tab=readme-ov-file#telegram-token">  Test Token </a>
+    <a href="https://github.com/TomvanD298/IoT-Manual#telegram-token">Telegram Token</a>
   </li>
 </ul>
 
