@@ -1,5 +1,5 @@
 <h1>IoT-Manual VinylFlow</h1>
-  <p>This is a manual to connect my NODEMCU to the spotify API. My goal is to get information or the lyrics from a specific song or artist.<br>
+  <p>This is a manual to connect my NODEMCU ESP8266 to the spotify API. My goal is to get information or the lyrics from a specific song or artist.<br>
     I want to communicate with the node via Telegram. If everything works well, I also want to display the current song on an LCD screen.
   </p>
 
@@ -71,7 +71,9 @@ The first step is to create an API token from Spotify. You can do this by loggin
   
 <li>
   Open the test file "EchoBot." Do this by clicking on File > Examples > UniversalTelegramBot (scroll all the way down) > esp8266 > EchoBot.
-  <b>Make sure you are using ESP8266 and not ESP32. This will not work. (Took me half an hour to realise this) </b>
+  <b>Make sure you are using ESP8266 and not ESP32.</b><br>
+  <p style="color:blue">ESP32 will not work. (Took me half an hour to realise this)</p>
+  <span style="color:blue">some *blue* text</span>
 </li>
 
 <li>
