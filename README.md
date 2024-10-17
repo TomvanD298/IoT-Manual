@@ -185,10 +185,26 @@ Enter the token you received when creating your bot on line 30.
       Now, enter your Wi-Fi details here, along with your tokens. You'll also need your **refresh token**, so make sure to enter that as well.<br> If everything works it should look like this:</p>
       <img width="400" alt="Screenshot 2024-10-17 at 21 02 37" src="https://github.com/user-attachments/assets/ce2a48bd-6c00-4f18-a94c-71d14d4956ed">
   </li>
-</ol>
+</ol>  
+</section>
 
+<section>
+  <h2>Linking API and Telegram</h2>
+  <p>When I started linking everything, I first put all the code into ChatGPT. Then I stated that I wanted to send the command "Nummer" via Telegram and receive the name of the song in response. This became a big mess, and I didn't understand anything anymore.<br>
+After that, I started breaking down the "CurrentPlaying" code until I had the basics working. This part is still functioning.</p><br><br>
 
-  
+<p>Unfortunately, I couldn't get it to link properly. I think the problem lies in the loop. The first time I run the code, it retrieves all the messages from Telegram and then logs the current song. However, now my Telegram messages are no longer coming through. I tried creating separate functions, adding timers, importing tickers, and using those, but none of that worked.</p>
+<img width="500" alt="Screenshot 2024-10-18 at 01 20 34" src="https://github.com/user-attachments/assets/0bd2d761-c558-430a-9b07-39b2f4d3f49c">
+<img width="500" alt="Screenshot 2024-10-18 at 01 29 50" src="https://github.com/user-attachments/assets/fe99a41d-b48f-4b4a-9ccb-0698f04ec43f">
+
+<p>I also checked if the issue might be related to the certificates or even the routes.</p>
+<img width="500" alt="Screenshot 2024-10-18 at 01 32 45" src="https://github.com/user-attachments/assets/b8954379-67fd-45f8-9eac-c708befdd473">
+<p>This was not the problem, but it cleaner.</p>
+</section>
+
+<section>
+  <h2>Connect a screen</h2>
+  <p>Despite not being able to link it, I still wanted to see if I could display the current song on an OLED screen that is compatible with Arduino.</p>
 </section>
 
 <section>
@@ -196,16 +212,16 @@ Enter the token you received when creating your bot on line 30.
 <p> i had some problems myself while making this.</p>
 <ol>
   <li>
-    <img width="500" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/f13e0f3b-f9c0-4371-9370-83095877b153">
     <p>I encountered this issue while working with the Telegram bot. Instead of selecting the **ESP8266**, I accidentally chose the **ESP32** from the examples.</p>
+    <img width="500" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/f13e0f3b-f9c0-4371-9370-83095877b153">
   </li>
   <li>
+    <p>The problem here was that it wasn't clear that you shouldn't include "/callback/" in the browser. Only the IP address should be entered here.</p>
     <img width="300" alt="Screenshot 2024-10-17 at 16 50 30" src="https://github.com/user-attachments/assets/e03b340a-fe97-45ee-b6bb-25b65ed9f928">
-  </li>
-  <li>
     <img width="300" alt="Screenshot 2024-10-17 at 16 50 17" src="https://github.com/user-attachments/assets/cd741a71-6f35-452f-aa17-2c54c8eb677b">
   </li>
   <li>
+    <p>Here, my Spotify API was still linked to my GitHub. So, I needed to change this on the Spotify dashboard to the IP and then add "/callback" at the end.</p>
     <img width="300" alt="Screenshot 2024-10-17 at 16 58 21" src="https://github.com/user-attachments/assets/08563eae-c60d-4950-9b60-0ff881e2adad">
   </li>
 
