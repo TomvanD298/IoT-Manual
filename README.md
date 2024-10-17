@@ -114,7 +114,19 @@ Enter the token you received when creating your bot on line 30.
   <li>
     lib
     <a href="https://roboticsbackend.com/install-arduino-library-from-github/">
-  </li>
+    download zip
+    place zip in mapje
+    restart IDE
+      krijg niks
+      andere file geupload
+      opnieuw -> doet het wel -> ip in serial
+      pagina doet het alleen niet
+      Redirect URIs (Sukkel)
+    <li>
+      Token in current nummer -> werkt!
+      <img width="400" alt="Screenshot 2024-10-17 at 21 02 37" src="https://github.com/user-attachments/assets/ce2a48bd-6c00-4f18-a94c-71d14d4956ed">
+
+    </li>
   <li>
     Token
   </li>
