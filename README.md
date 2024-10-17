@@ -165,7 +165,7 @@ Enter the token you received when creating your bot on line 30.
     <p>(This is where we added the Github link in the beginning.)</p>
   </li>
   <li>
-    <p>Next, type `http://192.168.1.20` into your internet browser, replacing `[{IP}](http://192.168.1.20)` with the IP address you got from the serial monitor.</p>
+    <p>Next, type http://192.168.1.20 into your internet browser, replacing (http://192.168.1.20) with the IP address you got from the serial monitor.</p>
   </li>
   <li>
     <p>The page should like like this:</p>
@@ -196,16 +196,17 @@ Enter the token you received when creating your bot on line 30.
 <p> i had some problems myself while making this.</p>
 <ol>
   <li>
-    <img width="1002" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/f13e0f3b-f9c0-4371-9370-83095877b153">
+    <img width="500" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/f13e0f3b-f9c0-4371-9370-83095877b153">
+    <p>I encountered this issue while working with the Telegram bot. Instead of selecting the **ESP8266**, I accidentally chose the **ESP32** from the examples.</p>
   </li>
   <li>
-    <img width="261" alt="Screenshot 2024-10-17 at 16 50 30" src="https://github.com/user-attachments/assets/e03b340a-fe97-45ee-b6bb-25b65ed9f928">
+    <img width="300" alt="Screenshot 2024-10-17 at 16 50 30" src="https://github.com/user-attachments/assets/e03b340a-fe97-45ee-b6bb-25b65ed9f928">
   </li>
   <li>
-    <img width="552" alt="Screenshot 2024-10-17 at 16 50 17" src="https://github.com/user-attachments/assets/cd741a71-6f35-452f-aa17-2c54c8eb677b">
+    <img width="300" alt="Screenshot 2024-10-17 at 16 50 17" src="https://github.com/user-attachments/assets/cd741a71-6f35-452f-aa17-2c54c8eb677b">
   </li>
   <li>
-    <img width="301" alt="Screenshot 2024-10-17 at 16 58 21" src="https://github.com/user-attachments/assets/08563eae-c60d-4950-9b60-0ff881e2adad">
+    <img width="300" alt="Screenshot 2024-10-17 at 16 58 21" src="https://github.com/user-attachments/assets/08563eae-c60d-4950-9b60-0ff881e2adad">
   </li>
 
 </ol>
