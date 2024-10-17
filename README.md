@@ -72,8 +72,7 @@ The first step is to create an API token from Spotify. You can do this by loggin
 <li>
   Open the test file "EchoBot." Do this by clicking on File > Examples > UniversalTelegramBot (scroll all the way down) > esp8266 > EchoBot.
   <b>Make sure you are using ESP8266 and not ESP32.</b><br>
-  <p style="color:blue">ESP32 will not work. (Took me half an hour to realise this)</p>
-  <span style="color:blue">some *blue* text</span>
+  <p><b>ESP32 will not work. (Took me half an hour to realise this)</b></p>
 </li>
 
 <li>
@@ -111,6 +110,18 @@ Enter the token you received when creating your bot on line 30.
 
 <section>
 <h2>Connect your node with spotify</h2>
+<ol>
+  <li>
+    lib
+    <a href="https://roboticsbackend.com/install-arduino-library-from-github/">
+  </li>
+  <li>
+    Token
+  </li>
+  <li>
+    Current
+  </li>
+</ol>
   
 </section>
 
