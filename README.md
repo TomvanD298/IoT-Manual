@@ -66,6 +66,7 @@ The first step is to create an API token from Spotify. You can do this by loggin
 <p> Add the UniversalTelegramBot library. You will see the option below; choose to install everything.</p>
 <img width="105" alt="image" src="https://github.com/user-attachments/assets/57d2d372-3840-44df-8b80-4da3dc228cc1">
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/44bae65a-443e-49e0-a227-d87e5af340e8">
+ <p> And add "ArduinoJson" by Benoit Blanchon, not the beta version, but the latest version.</p> 
 </li>
   
 <li>
@@ -86,6 +87,13 @@ Enter the token you received when creating your bot on line 30.
   <p>Upload the code to your Node to check if your Wi-Fi is working. Open your Serial Monitor to see if it’s functioning. I encountered the following issue:</p>
   <img width="452" alt="image" src="https://github.com/user-attachments/assets/ef7843bf-7b3e-45f7-9629-017d04e1eea9">
  <p>You can solve this by simply disconnecting the Node and reconnecting it.</p>
+</li>
+<li>
+  <p>Next i got the error.</p>
+  <img width="300" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/03170784-3f92-405b-a542-5263fed72786">
+  <p> This means that #include <WiFi.h> doesnt excist. You can replace it with:</p>
+  <code>#include <ESP8266WiFi.h></code>
+
 </li>
 <li>
   Then, you need to change the Baud rate from 9600 (default) to 115200. You can do this in the serial monitor on the right.
