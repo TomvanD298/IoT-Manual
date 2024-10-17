@@ -3,16 +3,6 @@
     I want to communicate with the node via Telegram. If everything works well, I also want to display the current song on an LCD screen.
   </p>
 
-<h2>Table of content</h2>  
-<ul>
-  <li>
-    <a href="https://github.com/TomvanD298/IoT-Manual#spotify-api">Spotify API </a>
-  </li>
-  <li>
-    <a href="https://github.com/TomvanD298/IoT-Manual#telegram-token">Telegram Token</a>
-  </li>
-</ul>
-
 <section>
 <h2>Spotify API</h2>
 <p>
@@ -66,8 +56,6 @@ The first step is to create an API token from Spotify. You can do this by loggin
     This is a personal token; do not share it online.
   </li>
 </ol>
-
-
 </section>
 
 
