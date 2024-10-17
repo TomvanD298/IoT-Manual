@@ -1,5 +1,5 @@
 <h1>IoT-Manual VinylFlow</h1>
-  <p>This is a manual to connect my NODEMCU to the spotify API. My goal is to get information about a specific song or artist.<br>
+  <p>This is a manual to connect my NODEMCU to the spotify API. My goal is to get information or the lyrics from a specific song or artist.<br>
     I want to communicate with the node via Telegram. If everything works well, I also want to display the current song on an LCD screen.
   </p>
 
@@ -43,6 +43,33 @@ The first step is to create an API token from Spotify. You can do this by loggin
 
 <section>
 <h2>Telegram Token</h2>
+<p> For this step, you need Telegram. In Telegram, you can create a bot that you can then link to your Node. This allows you to send messages to your Node. </p>
+
+<ol>
+  <li>
+    Download Telegram and create an account there.  
+  </li>
+  <li>
+    Search for the user: "The BotFather" and add them.  
+  </li>
+  <li>
+    Type /newbot to create a new one.  
+  </li>
+  <li>
+    Give it a random name (I named mine VinylFlow).  
+  </li>
+  <li>
+    Then give it a username; it must be unique and end with "bot." (Mine is named VinylFlowBot).
+  </li>
+  <li>
+    Now you will receive a token. Make sure to keep this for later. <br>
+    This is a personal token; do not share it online.
+  </li>
+</ol>
+
+
 </section>
+
+
 
 
