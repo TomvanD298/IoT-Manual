@@ -9,7 +9,7 @@
    <li>Connect Node with Telegram</li>
    <li>Connect your node with spotify</li>
    <li>Combine everything</li>
-   <li>Add the LCD</li>
+   <li>Connect an LCD screen.</li>
    <li>Troubleshooting</li>
  </ul>
 
@@ -203,8 +203,25 @@ After that, I started breaking down the "CurrentPlaying" code until I had the ba
 </section>
 
 <section>
-  <h2>Connect a screen</h2>
+  <h2>Connect an LCD screen.</h2>
   <p>Despite not being able to link it, I still wanted to see if I could display the current song on an OLED screen that is compatible with Arduino.</p>
+  <ul>
+    <li>
+      <p>The first problem I encountered was that I didn't know which screen it was. So, I had to Google "Arduino LCD screen" to see which one looked similar.</p>
+      <img width="200" alt="Screenshot 2024-10-17 at 13 44 31" src="https://github.com/user-attachments/assets/c9ad5b86-9d93-4c3d-b168-e2ec80a103fa">
+      <p>It's the 0.96 inch IIC Serial 4-pin OLED Display Module 128x64, 12864 LCD Screen Board for Arduino OLED.</p>
+    </li>
+    <li>
+      <p>I found a <a href="https://randomnerdtutorials.com/esp8266-0-96-inch-oled-display-with-arduino-ide/">great tutorial</a> for installing this LCD screen!</p>
+    </li>
+    <li>
+      <p>After installing two libraries and running an example file, it should work. Unfortunately, it’s not working...</p>
+      <p>This could have multiple causes, which I unfortunately can't test right now due to limited time and resources. It could be a faulty cable, the code that I don't fully understand, or maybe the LCD screen just isn't working.
+
+I did check three times to ensure it was connected correctly, so I hope that wasn't the issue.</p>
+<p>Further along in the tutorial, it does mention that you can also add text and images. It's a real shame, because it would have been amazing if this had worked!</p>
+    </li>
+  </ul>
 </section>
 
 <section>
@@ -228,6 +245,14 @@ After that, I started breaking down the "CurrentPlaying" code until I had the ba
 </ol>
 </section>
 
+<section>
+  <h2>Sources</h2>
+  <ol>
+    <li>
+      
+    </li>
+  </ol>
+</section>
 
 
 
