@@ -11,6 +11,7 @@
    <li>Combine everything</li>
    <li>Connect an LCD screen.</li>
    <li>Troubleshooting</li>
+  <li>Sources</li>
  </ul>
 
 <section>
@@ -248,9 +249,11 @@ I did check three times to ensure it was connected correctly, so I hope that was
 <section>
   <h2>Sources</h2>
   <ol>
-    <li>
-      
-    </li>
+    <li><p><a href="https://developer.spotify.com/dashboard">Spotify API Dashboard</a></p></li>
+    <li><p><a href="https://github.com/witnessmenow/spotify-api-arduino">Spotify API Connection:</a> For understanding how to integrate Spotify with external applications.</p></li>
+    <li><p><a href="https://roboticsbackend.com/install-arduino-library-from-github/">Libarary tutorial: </a>To manually add a library to the Arduino IDE,</p></li>
+    <li><p><a href="https://randomnerdtutorials.com/esp8266-0-96-inch-oled-display-with-arduino-ide/">OLED Display Tutorial:</a> Various online guides explaining how to connect and program the 0.96-inch OLED screen.</p></li>
+    <li><p><a href="https://chatgpt.com/">ChatGPT: </a>For helping with code and translating this document.</p></li>
   </ol>
 </section>
 
